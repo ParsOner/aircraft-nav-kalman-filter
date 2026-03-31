@@ -73,7 +73,7 @@ The Kalman Filter provides smooth, accurate estimates compared to raw GPS:
 ### Run
 
 ```matlab
-trajectory.m
+nav_simulation
 ```
 
 The script generates 8 figures covering trajectory visualization, sensor data, Kalman Filter estimates, and error analysis with covariance bounds.
@@ -83,11 +83,13 @@ The script generates 8 figures covering trajectory visualization, sensor data, K
 ## Project Structure
 
 ```
-├── trajectory.m                  # Main simulation script (single-file)
+aircraft-nav-kalman-filter/
+├── nav_simulation.m              # Main simulation script
 ├── docs/
-│   └── Trajectory_Planning_.pptx # Project presentation (24 slides)
+│   └── project_presentation.pptx # Project presentation (24 slides)
+├── README.md
 ├── LICENSE
-└── README.md
+└── .gitignore
 ```
 
 ---
